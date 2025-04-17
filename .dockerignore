@@ -1,0 +1,21 @@
+# ecommerce-kafka-project/.dockerignore
+
+# Ignorar dependencias locales, logs, etc.
+node_modules
+npm-debug.log
+logs
+*.log
+
+# Ignorar archivos de configuración de entorno (se pasan via docker-compose)
+.env
+*.env
+
+# Ignorar archivos de Git y Docker
+.git
+.gitignore
+Dockerfile
+.dockerignore
+
+# Ignorar archivos de sistema operativo
+.DS_Store
+Thumbs.db

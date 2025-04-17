@@ -1,0 +1,15 @@
+# services/user-service/.dockerignore
+
+# Hereda del root .dockerignore, pero es bueno tenerlo explícito
+node_modules
+npm-debug.log
+logs
+*.log
+.env
+*.env
+.git
+.gitignore
+Dockerfile
+.dockerignore
+.DS_Store
+Thumbs.db

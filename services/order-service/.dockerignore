@@ -1,0 +1,14 @@
+# services/order-service/.dockerignore
+
+node_modules
+npm-debug.log
+logs
+*.log
+.env
+*.env
+.git
+.gitignore
+Dockerfile
+.dockerignore
+.DS_Store
+Thumbs.db
